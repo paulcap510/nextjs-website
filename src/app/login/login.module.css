@@ -1,0 +1,107 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg);
+}
+
+.loginPanel {
+  width: 400px;
+  padding: 30px;
+  background-color: #2a2f35;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.loginTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.googleButton {
+  background-color: #e15c41;
+  color: #ffffff;
+  transition: 0.2s !important;
+}
+
+.googleButton:hover {
+  background-color: var(--bgSoftAlt);
+}
+
+.githubButton {
+  background-color: var(--text);
+  color: var(--bg);
+}
+
+.githubButton:hover {
+  background-color: var(--bgSoftAlt);
+  color: var(--text);
+}
+
+.orSeparator {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+  color: var(--text);
+}
+
+.inputField {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.signInButton {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #6e48aa, #9d50bb);
+  color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signInButton:hover {
+  filter: brightness(110%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.registerPrompt {
+  text-align: center;
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.registerLink {
+  color: var(--text);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+}
